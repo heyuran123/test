@@ -12,7 +12,7 @@ while($row=pg_fetch_array($result)){
 	echo $row['id']."--".$row['content']."<br>";
 }*/
 
-$arr=array(
+/*$arr=array(
             'host' => '192.168.28.17',        
             'user' => 'postgres',
             'password' => 'HA..1postgres',
@@ -20,7 +20,9 @@ $arr=array(
             'port' => 5432
         );
 echo count($arr);
-var_dump($arr[2]);
+var_dump($arr[2]);*/
+
+phpinfo();
 
 
 ?>
