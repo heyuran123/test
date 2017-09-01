@@ -23,12 +23,9 @@ echo count($arr);
 var_dump($arr[2]);*/
 
 //phpinfo();
-<<<<<<< HEAD
 echo "hahaha";
-=======
 
 //echo md5('123');
->>>>>>> windows修改
 
 /*include('a.php');
 include("b.php");
