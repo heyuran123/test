@@ -37,4 +37,5 @@ echo date("Y-m-d H:i:s");
 
 echo "new ubuntu modify";
 echo "new windows modify";
+echo "hehehe";
 ?>
