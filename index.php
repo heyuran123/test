@@ -23,6 +23,18 @@ echo count($arr);
 var_dump($arr[2]);*/
 
 //phpinfo();
+<<<<<<< HEAD
 echo "hahaha";
+=======
 
+//echo md5('123');
+>>>>>>> windows修改
+
+/*include('a.php');
+include("b.php");
+include("c.php");
+$c=new c();
+$c->test();*/
+
+echo date("Y-m-d H:i:s");
 ?>
