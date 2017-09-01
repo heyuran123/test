@@ -22,7 +22,7 @@ while($row=pg_fetch_array($result)){
 echo count($arr);
 var_dump($arr[2]);*/
 
-phpinfo();
-
+//phpinfo();
+echo "hahaha";
 
 ?>
