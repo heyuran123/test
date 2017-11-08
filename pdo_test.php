@@ -8,13 +8,13 @@ if($pdo_con){
 }
 $content='heyuran';
 $id=1;
-$ready=$pdo_con->prepare("select * from test where content=:content and id=:id");
+$ready=$pdo_con->prepare("select * from test where content='$content' and id=$id");
 echo "<pre>";
 /*while($row=$result->fetch()){
 	var_dump(array_keys($row));
 	//echo $row['id']."-".$row['content']."<br>";
 }*/
-$result=$ready->execute(array(':content'=>'heyuran','id'=>1));
+$result=$ready->execute();
 $row=$ready->fetchAll();
 var_dump($row);
 foreach ($row as $key => $value) {
